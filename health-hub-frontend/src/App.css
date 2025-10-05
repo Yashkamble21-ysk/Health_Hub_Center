@@ -1,0 +1,366 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.header {
+    text-align: right;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.language-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.banner {
+    background-color: #0066ff;
+    padding: 25px;
+    height: 30px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 36px;
+    margin: 0px;
+}
+
+.container {
+    padding: 20px;
+    background-color: #33ccff;
+    background: url('https://thumbs.dreamstime.com/z/global-healthcare-innovation-concept-doctor-earth-sustainable-medicine-health-awareness-illustration-medical-professional-353574973.jpg') no-repeat center center/cover;
+    height: 480px;
+}
+
+.doctors-on-leave {
+    background: white;
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.doctors-on-leave h3 {
+    text-decoration: underline;
+}
+
+.awards {
+    margin-top: 20px;
+}
+
+.awards img {
+    width: 150px;
+    margin: 10px;
+}
+
+.buttons {
+    margin-left: 1100px;
+}
+
+.login-btn, .register-btn {
+    background-color: #0033ff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.login-btn a, .register-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.visitor-box {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li a:hover {
+    background-color: #0066ff;
+    color: white;
+}
+
+.visitor-box:hover {
+    background-color: #0066ff;
+    color: white;
+}
+
+.visitor-box a {
+    text-decoration: none;
+    color: white;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 20px;
+    float: left;
+    margin: 0px;
+}
+
+.service-box {
+    width: 250px;
+    height: 120px;
+    background: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-box h3 {
+    color: #22b8b0;
+}
+
+.service-box a {
+    text-decoration: none;
+    color: #008f87;
+    font-weight: bold;
+}
+
+/* //login.css */
+/* Center the card */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #007BFF, #6f42c1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card styling */
+.login-card {
+  background: white;
+  width: 350px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: fadeIn 0.6s ease;
+}
+
+.login-card h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-card p {
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #444;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #007BFF;
+}
+
+/* Buttons */
+.login-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.login-btn {
+  background: #3b1de2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background: #474ce1;
+}
+
+.back-btn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 50px;
+  transition: background 0.3s;
+
+}
+
+.back-btn:hover {
+  background: #5a6268;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Register.css */
+/* ===== Register Page Styling ===== */
+.register-container {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 30px 40px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register-container h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0077b6;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input,
+form select {
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1.5px solid #ddd;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #0077b6;
+  box-shadow: 0 0 6px rgba(0, 119, 182, 0.3);
+}
+
+.register-btn {
+  background: #3b1de2;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.register-btn:hover {
+  background: #474ce1;
+}
+
+.message {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+}
+
+/* ✅ Success Message */
+.message:has(> span:contains("✅")) {
+  color: #2e7d32;
+}
+
+/* ❌ Error Message */
+.message:has(> span:contains("❌")),
+.message:has(> span:contains("⚠️")) {
+  color: #d32f2f;
+}
+
+.back-btn {
+  margin-top: 20px;
+  background: transparent;
+  color: #3b1de2;
+  border: 1.5px solid #3b1de2;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 70px;
+}
+
+.back-btn:hover {
+  background: #0077b6;
+  color: white;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 480px) {
+  .register-container {
+    margin: 40px 15px;
+    padding: 25px;
+  }
+
+  .register-container h2 {
+    font-size: 1.5rem;
+  }
+
+  form input,
+  form select {
+    font-size: 14px;
+  }
+}
